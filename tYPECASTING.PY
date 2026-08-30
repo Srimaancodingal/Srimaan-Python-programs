@@ -11,5 +11,7 @@ print ("Is student: ", Is_student , "type : ",type (Is_student))
 
 Agestr= str(age)
 print ("age : ",Agestr , "type : ",type (Agestr))
-weightint= int(weight)
+weightint= int(weight).
+.
+
 print ("weight : ", weightint , "type : ",type (weightint))
