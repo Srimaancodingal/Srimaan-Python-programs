@@ -6,6 +6,6 @@ class square:
     def perimeter (self):
         return self.side_length * 4 
 
-my_square = square int(input("Enter Sidelength"))
+my_square = square (5)
 print ("The area of the square is", my_square.area ())
 print ("The perimeter of the square is" my_square.perimeter ())
