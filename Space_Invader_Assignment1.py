@@ -36,7 +36,7 @@ while running:
     screen.fill((225, 225, 225))
 
     if game_over:
-        message = text.render("YOU LOSE!!!", True, (0, 0, 0))
+        message = text.render("YOU WIN!!!", True, (0, 0, 0))
         screen.blit(message, (100, 350))
 
     else:
